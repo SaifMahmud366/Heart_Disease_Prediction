@@ -25,12 +25,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 ```
 
-# Data Analysis
+## Data Analysis
 
 ### Data Overview
 The dataset contains various medical features for heart disease prediction. Initial data exploration shows no missing values, making it ideal for direct model training without extensive preprocessing.
 
-# Visualizations
+### Visualizations
 
 #### Age vs Cholesterol Analysis
 ```python
@@ -42,7 +42,7 @@ plt.ylabel('Cholesterol')
 plt.title('Age vs Cholesterol Scatter Plot')
 plt.show()
 ```
-![Scatter Plot](https://i.ibb.co.com/qs8qNpv/output-3-0.png)
+![Age vs Cholesterol Scatter Plot](scatter_plot.png)
 
 This visualization reveals the relationship between age, cholesterol levels, and heart disease occurrence. The color coding helps identify patterns in disease prevalence across different age and cholesterol combinations.
 
@@ -55,7 +55,7 @@ plt.ylabel('Frequency')
 plt.title('Age Distribution')
 plt.show()
 ```
-![Historgam](https://i.ibb.co.com/FB32Qqf/output-4-0.png)
+![Age Distribution](age_distribution.png)
 
 The age distribution helps understand the demographic spread in our dataset and potential age-related risk factors.
 
@@ -66,11 +66,11 @@ sns.heatmap(df.corr(), annot=True, fmt='.2f', cmap='coolwarm')
 plt.title('Correlation Matrix')
 plt.show()
 ```
-![Correlation Matrix](https://i.ibb.co.com/mC0GbN5/output-5-0.png)
+![Correlation Matrix](correlation_matrix.png)
 
 The correlation matrix provides insights into feature relationships and their impact on heart disease prediction.
 
-# Model Implementation
+## Model Implementation
 
 ### Data Splitting
 The dataset is split into training (80%) and testing (20%) sets:
@@ -109,7 +109,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
    rf.fit(X_train, y_train)
    ```
 
-# Results and Comparison
+## Results and Comparison
 
 ### Model Performance
 ```python
@@ -122,7 +122,7 @@ plt.ylim(0, 1)
 plt.title('Model Accuracy Comparison')
 plt.ylabel('Accuracy')
 ```
-![Model Performance](https://i.ibb.co.com/jbVh5wv/output-14-0.png)
+![Model Comparison](model_comparison.png)
 
 ### Algorithm Comparison
 
