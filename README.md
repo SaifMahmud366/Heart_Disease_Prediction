@@ -84,6 +84,7 @@ The dataset is split into training (80%) and testing (20%) sets.
 
 ### Model Performance
 Here the Height Accuracy is 99%
+
 ![Model Performance](Images\ModelPerformance.png)
 
 ### Algorithm Comparison
