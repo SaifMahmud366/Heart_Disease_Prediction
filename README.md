@@ -30,19 +30,19 @@ The dataset contains various medical features for heart disease prediction. Init
 
 #### Age vs Cholesterol Analysis
 
-![Scatter Plot](https://i.ibb.co.com/qs8qNpv/output-3-0.png)
+![Scatter Plot](Images/ScatterPlot.png)
 
 This visualization reveals the relationship between age, cholesterol levels, and heart disease occurrence. The color coding helps identify patterns in disease prevalence across different age and cholesterol combinations.
 
 #### Age Distribution
 
-![Historgam](https://i.ibb.co.com/FB32Qqf/output-4-0.png)
+![Historgam](Images\Histogram.png)
 
 The age distribution helps understand the demographic spread in our dataset and potential age-related risk factors.
 
 #### Correlation Analysis
 
-![Correlation Matrix](https://i.ibb.co.com/mC0GbN5/output-5-0.png)
+![Correlation Matrix](Images\CorrelationMatrix.png)
 
 The correlation matrix provides insights into feature relationships and their impact on heart disease prediction.
 
@@ -84,7 +84,7 @@ The dataset is split into training (80%) and testing (20%) sets.
 
 ### Model Performance
 Here the Height Accuracy is 99%
-![Model Performance](https://i.ibb.co.com/jbVh5wv/output-14-0.png)
+![Model Performance](Images\ModelPerformance.png)
 
 ### Algorithm Comparison
 
