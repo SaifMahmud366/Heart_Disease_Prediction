@@ -36,13 +36,13 @@ This visualization reveals the relationship between age, cholesterol levels, and
 
 #### Age Distribution
 
-![Historgam](Images\Histogram.png)
+![Historgam](Images/Histogram.png)
 
 The age distribution helps understand the demographic spread in our dataset and potential age-related risk factors.
 
 #### Correlation Analysis
 
-![Correlation Matrix](Images\CorrelationMatrix.png)
+![Correlation Matrix](Images/CorrelationMatrix.png)
 
 The correlation matrix provides insights into feature relationships and their impact on heart disease prediction.
 
@@ -85,7 +85,7 @@ The dataset is split into training (80%) and testing (20%) sets.
 ### Model Performance
 Here the Height Accuracy is 99%
 
-![Model Performance](Images\ModelPerformance.png)
+![Model Performance](Images/ModelPerformance.png)
 
 ### Algorithm Comparison
 
